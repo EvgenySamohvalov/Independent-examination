@@ -1,0 +1,12 @@
+.Footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background: #363839;
+    color: #fff;
+
+    & div p {
+        margin: 0 0 10px;
+    }
+}

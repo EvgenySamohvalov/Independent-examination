@@ -9,6 +9,8 @@ import {Home} from './pages/Home/Home'
 import {Serves} from './pages/Serves/Serves'
 import {Question} from './pages/Question/Question'
 import {Contacts} from './pages/Contacts/Contacts'
+import {Documents} from './pages/Documents/Documents'
+import {Order} from './pages/Order/Order'
 
 
 
@@ -19,8 +21,10 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/serves" component={Serves} />
+        <Route path="/documents" component={Documents} />
         <Route path="/question" component={Question} />
         <Route path="/contacts" component={Contacts} />
+        <Route path="/order" component={Order} />
       </Switch>
       <Footer />
     </BrowserRouter>

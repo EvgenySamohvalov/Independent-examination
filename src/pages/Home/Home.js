@@ -4,8 +4,11 @@ import './Home.scss'
 
 export const Home = () => {
     return (
-        <h2>
-            Home page!
-        </h2>
+
+        <div className="Home">
+            <h2>
+                Home page!
+            </h2>
+        </div>
     )
 }

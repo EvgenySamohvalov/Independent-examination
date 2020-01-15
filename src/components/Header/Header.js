@@ -1,19 +1,19 @@
 import React from 'react'
 
+
 import './Header.scss'
 import NavBar from '../NavBar/NavBar'
 import OrderButton from '../OrderButton/OrderButton'
-import logo from '../../image/logo.png'
+import { Logo } from '../Logo/Logo'
+
 
 
 const Header = () => {
     return (
         <div className="Header">
-            <a href="/">
-                <img src={logo} alt="logo"/>
-            </a>
+            <Logo />
             <NavBar />
-            <OrderButton />
+            <OrderButton name="Ну Закажи!!"/>
         </div>
     )
 }

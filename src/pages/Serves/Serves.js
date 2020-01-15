@@ -4,8 +4,10 @@ import './Serves.scss'
 
 export const Serves = () => {
     return (
-        <h2>
-            Serves page!
-        </h2>
+        <div className="Serves">
+            <h2>
+                Serves page!
+            </h2>
+        </div>
     )
 }
