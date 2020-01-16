@@ -1,3 +1,22 @@
 .Documents {
     flex: 1 0;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__img {
+        height: 200px;
+        border-radius: 5px;
+        box-shadow: 0 0 .5vw rgba(0,0,0,.7);
+    }
+
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+    }
 }

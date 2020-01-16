@@ -3,18 +3,20 @@ import './Footer.scss'
 import { Logo } from '../Logo/Logo'
 
 const Footer = () => {
+    const data = new Date().getFullYear()
+
     return (
         <div className="Footer">
             <Logo />
             <div>
-                <p>Санкт-Петербург, ул. Мельничная 21А</p>
-                <p>ООО «ЛенАвтоТехника»</p>
-                <p>ИНН 7842082536</p>
+                <p>Юр. адрес: Санкт-Петербург, ул. Моисеенко, д. 22-А</p>
+                <p>ООО «Федеральный экспертный центр «ЛАТ»</p>
+                <p>ИНН 7842497700</p>
             </div>
             <div>
                 <p>Цены, указанные на сайте, не являются публичной оффертой</p>
                 <p>Политика конфиденциальности</p>
-                <p>©2020</p>
+                <p>©2018 - ©{data}</p>
             </div>
 
             <div>
@@ -22,7 +24,6 @@ const Footer = () => {
                 <p>Imail-lat@mail.ru</p>
             </div>
         </div>
-        
     )
 }
 
